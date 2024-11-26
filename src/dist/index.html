@@ -13,7 +13,7 @@
   <nav class="navbar is-primary" role="navigation" aria-label="main navigation">
     <div class="navbar-brand">
       <div class="navbar-item is-hidden-desktop">
-        <a href="https://github.com/frank-engel-usgs" class="icon is-large has-text-light">
+        <a href="https://github.com/frank-engel" class="icon is-large has-text-light">
           <i class="fab fa-2x fa-github"></i>
         </a>
       </div>
@@ -26,7 +26,7 @@
     <div class="navbar-menu">
       <div class="navbar-end">
         <div class="navbar-item">
-          <a href="https://github.com/frank-engel-usgs" class="icon is-large has-text-light">
+          <a href="https://github.com/frank-engel" class="icon is-large has-text-light">
             <i class="fab fa-2x fa-github"></i>
           </a>
         </div>
@@ -52,21 +52,20 @@
         <div class="columns has-text-centered">
           <div class="column">
             <h1 class="title is-1">
-              Frank L Engel
+              Frank L. Engel
             </h1>
             <h2 class="subtitle">
               remote sensing, data analysis, python, method development
             </h2>
-            <p>
+            <div class="link-container">
               <a href="docs/resume.pdf" class="icon has-text-light">
                 <i class="fas fa-file-word"></i> <strong>Resume</strong>
               </a>
-            </p>
-            <p>
+              <!-- <span class="separator"> | </span>
               <a href="docs/vita.pdf" class="icon has-text-light">
-              <i class="fas fa-file-word"></i> <strong>Vita</strong>
-            </a>
-          </p>
+                <i class="fas fa-file-word"></i> <strong>Vita</strong>
+              </a> -->
+            </div>
           </div>
         </div>
       </div>
@@ -75,9 +74,9 @@
 
   <section class="section">
     <div class="container">
-      <h1 class="title">About Me</h1>
+      <h1 class="title" id="aboutme">About Me</h1>
       <hr />
-      <p>Geographer and researcher with 6+ years of experience in developing new tools, technology, and apps
+      <p>Geographer and researcher with 10+ years of experience in developing new tools, technology, and apps
         using remote sensing to solve real-world problems. Very familiar with standard software design practices,
         operational deployment of technology and hardware, and providing practical training. Passionate about good project
         management and clear communication through scientific publications, documentation, and other media.
@@ -86,9 +85,9 @@
   </section>
   <section class="section">
     <div class="container">
-      <h1 class="title">Experience</h1>
+      <h1 class="title" id="experience">Experience</h1>
       <hr />
-      <div class="card">
+      <div class="card card-gap">
         <div class="card-content">
           <div class="media">
             <div class="media-left">
@@ -119,7 +118,7 @@
             </div>
           </div>
         </div>
-      </div>
+      </div>  
       <div class="card card-gap">
         <div class="card-content">
           <div class="media">
@@ -150,44 +149,48 @@
             </div>
           </div>
         </div>
-        <div class="card card-gap">
-          <div class="card-content">
-            <div class="media">
-              <div class="media-left">
-                <figure class="image is-48x48">
-                  <img src="img/USGS_ID_black.png" alt="Placeholder image">
-                </figure>
-              </div>
-              <div class="media-content">
-                <p class="title is-4">U.S. Geological Survey</p>
-                <p class="subtitle is-6">Geographer, Illinois Water Science Center | <time datetime="2018-1">June 2015</time> - <time
-                    datetime="2017-9">June 2017</time></p>
-              </div>
+      </div>  
+      <div class="card card-gap">
+        <div class="card-content">
+          <div class="media">
+            <div class="media-left">
+              <figure class="image is-48x48">
+                <img src="img/USGS_ID_black.png" alt="Placeholder image">
+              </figure>
             </div>
-            <div class="content">
-              <p>Operationally focused scientist working on water resource problems in the Great Lakes region.</p>
-              <ul>
-                <li>Designed & conducted novel hydraulic studies with hydroacoustics as part of the Asian Carp Program.</li>
-                <li>Evaluated new hydroacoustic sensors and technology through former Office of Surface Water.</li>
-                <li>Conducted & designed several national training classes & seminars on advanced use of hydroacoustics.</li>
-                <li>Recognized Subject Matter Expert on use of hydroacoustics in novel or atypical deployments.</li>
-              </ul>
-              <div class="tags">
-                <span class="tag">hydrualics</span>
-                <span class="tag">hydroacoustics</span>
-                <span class="tag">sediment transport</span>
-                <span class="tag">h&h modeling</span>
-                <span class="tag">uas</span>
-              </div>
+            <div class="media-content">
+              <p class="title is-4">U.S. Geological Survey</p>
+              <p class="subtitle is-6">Geographer, Illinois Water Science Center | <time datetime="2018-1">April 2012</time> - <time
+                  datetime="2017-9">June 2017</time></p>
             </div>
           </div>
+          <div class="content">
+            <p>Operationally focused scientist working on water resource problems in the Great Lakes region.</p>
+            <ul>
+              <li>Designed & conducted novel hydraulic studies with hydroacoustics as part of the Asian Carp Program.</li>
+              <li>Evaluated new hydroacoustic sensors and technology through former Office of Surface Water.</li>
+              <li>Conducted & designed several national training classes & seminars on advanced use of hydroacoustics.</li>
+              <li>Recognized Subject Matter Expert on use of hydroacoustics in novel or atypical deployments.</li>
+              <li>Co-developed Velocity Mapping Toolbox software; a recognized standard application for use with hydroacoustics.</li>
+              <li>Completed fieldwork and scientific analysis for several projects as assigned.</li>
+            </ul>
+            <div class="tags">
+              <!-- <span class="tag">hydrualics</span> -->
+              <span class="tag">hydroacoustics</span>
+              <span class="tag">sediment transport</span>
+              <span class="tag">geomorphology</span>
+              <span class="tag">fieldworkf</span>
+            </div>
+          </div>
+        </div>
       </div>
-    </div>
+    </div>  
+    
   </section>
 
   <section class="section">
     <div class="container">
-      <h1 class="title">Projects</h1>
+      <h1 class="title" id="projects">Projects</h1>
       <hr />
       <div class="tile is-ancestor">
         <div class="tile is-vertical is-12">
@@ -254,21 +257,21 @@
 
   <section class="section">
     <div class="container">
-      <h1 class="title">Education / Training</h1>
+      <h1 class="title" id="education">Education / Training</h1>
       <hr />
       <div class="card">
         <div class="card-content">
           <div class="content">
-            <p class="title is-4">School Name</p>
-            <p class="subtitle is-6">Program/Course - <time datetime="2016-9">September 2016</time> - <time
-                datetime="2019-9">Sepemter 2019</time></p>
+            <p class="title is-4">University of Illinois at Urbana-Champaign</p>
+            <p class="subtitle is-6">Doctorate of Geography, Minor in Civil and Environmental Engineering | <time datetime="2016-9">September 2007</time> - <time
+                datetime="2019-9">May 2014</time></p>
           </div>
           <div class="content">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-            Phasellus nec iaculis mauris.
+            My research focused on deepening our understanding of the fluvial dynamics and geomorphology of river meander bends.
             <ul>
-              <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
-              <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+              <li><strong>Article: </strong>Velocity profiles and the structure of turbulence at the outer bank of a compound meander bend. <a href="https://doi.org/10.1016/j.geomorph.2017.06.018">https://doi.org/10.1016/j.geomorph.2017.06.018</a>.</li>
+              <li><strong>Article: </strong>Three-dimensional flow structure and patterns of bed shear stress in an evolving compound meander bend. <a href="https://doi.org/10.1002/esp.3895">https://doi.org/10.1002/esp.3895</a>.</li>
+              <li><strong>Article: </strong>Interaction among Mean Flow, Turbulence, Bed Morphology, Bank Failures and Channel Planform in an Evolving Compound Meander Loop. <a href="https://doi.org/10.1016/j.geomorph.2001.05.026">https://doi.org/10.1016/j.geomorph.2001.05.026</a>.</li>
             </ul>
           </div>
         </div>
@@ -276,18 +279,35 @@
       <div class="card card-gap">
         <div class="card-content">
           <div class="content">
-            <p class="title is-4">School Name</p>
-            <p class="subtitle is-6">Program/Course - <time datetime="2015-9">September 2014</time> - <time
-                datetime="2015-9">Sepemter 2015</time></p>
+            <p class="title is-4">Texas State University-San Marcos</p>
+            <p class="subtitle is-6">Master of Science in Geography | <time datetime="2015-9">September 2005</time> - <time
+                datetime="2015-9">December 2007</time></p>
           </div>
-          <div class="content">
+          <!-- <div class="content">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit.
             Phasellus nec iaculis mauris.
             <ul>
               <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
               <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
-            </ul>
+            </ul> -->
+          <!-- </div> -->
+        </div>
+      </div>
+      <div class="card card-gap">
+        <div class="card-content">
+          <div class="content">
+            <p class="title is-4">Texas State University-San Marcos</p>
+            <p class="subtitle is-6">Bachelor of Science in Physical Geography, Minor in Music | <time datetime="2015-9">September 1999</time> - <time
+                datetime="2015-9">May 2005</time></p>
           </div>
+          <!-- <div class="content">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            Phasellus nec iaculis mauris.
+            <ul>
+              <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+              <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+            </ul> -->
+          <!-- </div> -->
         </div>
       </div>
     </div>
@@ -300,10 +320,10 @@
       <nav class="level">
         <div class="level-item has-text-centered">
           <div>
-            <a href="https://github.com/frank-engel-usgs" class="icon is-large">
+            <a href="https://github.com/frank-engel" class="icon is-large">
               <i class="fab fa-2x fa-github"></i>
             </a>
-            <p class="heading"><a href="https://github.com/frank-engel-usgs">github.com/frank-engel-usgs</a></p>
+            <p class="heading"><a href="https://github.com/frank-engel">github.com/frank-engel</a></p>
           </div>
         </div>
         <!-- <div class="level-item has-text-centered">
@@ -592,7 +612,7 @@
   <footer class="footer">
     <div class="content has-text-centered">
       <p>
-        <!-- <a href="https://github.com/frank-engel-usgs" target="_blank" class="icon has-text-primary">
+        <!-- <a href="https://github.com/frank-engel" target="_blank" class="icon has-text-primary">
           <i class="fab fa-github"></i> <strong>devfolio</strong></a> -->
       </p>
     </div>
