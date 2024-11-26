@@ -31,9 +31,15 @@ $link-hover: #283593; /* Darker blue for hover state */
 
 /* Custom Styles */
 .card-gap { margin-top: map-get($spaces, 2); }
-.modal-trigger { cursor: pointer; }
+.modal-trigger { 
+    cursor: pointer; 
+    aspect-ratio: 1 / 1;
+}
 a.icon > strong { margin-left: .25rem; }
 .modal-card-body div.content { margin: $margin-default; }
+.square-image{
+    aspect-ratio: 1 / 1;
+}
 
 /* Import everything - alternatively import just what you need: https://bulma.io/documentation/overview/modular/ */
 @import "~bulma/bulma";
@@ -52,7 +58,7 @@ a.icon > strong { margin-left: .25rem; }
     font-size: 1.2rem; /* Adjust size for consistency */
     color: white; /* Matches the text color */
   }
-  
+
 /* Custom Functions */
 @function theme-color($key: "primary") {
     @return map-get($theme-colors, $key);

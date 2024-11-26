@@ -190,30 +190,32 @@
 
   <section class="section">
     <div class="container">
-      <h1 class="title" id="projects">Projects</h1>
+      <h1 class="title" id="projects">Projects and Collaborations</h1>
       <hr />
+
+      <!-- ROW ONE -->
       <div class="tile is-ancestor">
         <div class="tile is-vertical is-12">
           <div class="tile">
-            <div class="tile is-parent">
+            <div class="tile is-parent" id="surfveltools">
               <article class="tile is-child notification">
-                <p class="title">Project title</p>
+                <p class="title">SurfVelTools</p>
                 <figure class="image is-3by2">
-                  <img class="modal-trigger" data-target="project-1-modal" src="img/project-1-cover.png">
+                  <img class="modal-trigger square-image" data-target="project-1-modal" src="img/project-1-cover.png">
                 </figure>
               </article>
             </div>
-            <div class="tile is-parent">
+            <div class="tile is-parent" id="ivytools">
               <article class="tile is-child notification">
-                <p class="title">Project title</p>
+                <p class="title">IVy Tools</p>
                 <figure class="image is-4by3">
                   <img class="modal-trigger" data-target="project-2-modal" src="img/project-2-cover.png">
                 </figure>
               </article>
             </div>
-            <div class="tile is-parent">
+            <div class="tile is-parent" id="cameradcp">
               <article class="tile is-child notification">
-                <p class="title">Project title</p>
+                <p class="title">CameraDCP</p>
                 <figure class="image is-4by3">
                   <img class="modal-trigger" data-target="project-3-modal" src="img/project-3-cover.png">
                 </figure>
@@ -222,12 +224,14 @@
           </div>
         </div>
       </div>
+
+      <!-- ROW TWO -->
       <div class="tile is-ancestor">
         <div class="tile is-vertical is-12">
           <div class="tile">
             <div class="tile is-parent">
               <article class="tile is-child notification">
-                <p class="title">Project title</p>
+                <p class="title">NIMS & HIVIS</p>
                 <figure class="image is-4by3">
                   <img class="modal-trigger" data-target="project-4-modal" src="img/project-4-cover.png">
                 </figure>
@@ -235,7 +239,7 @@
             </div>
             <div class="tile is-parent">
               <article class="tile is-child notification">
-                <p class="title">Project title</p>
+                <p class="title">Prob Concept</p>
                 <figure class="image is-4by3">
                   <img class="modal-trigger" data-target="project-5-modal" src="img/project-5-cover.png">
                 </figure>
@@ -243,9 +247,41 @@
             </div>
             <div class="tile is-parent">
               <article class="tile is-child notification">
-                <p class="title">Project title</p>
+                <p class="title">River Ice</p>
                 <figure class="image is-4by3">
                   <img class="modal-trigger" data-target="project-6-modal" src="img/project-6-cover.png">
+                </figure>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- ROW THREE -->
+      <div class="tile is-ancestor">
+        <div class="tile is-vertical is-12">
+          <div class="tile">
+            <div class="tile is-parent">
+              <article class="tile is-child notification">
+                <p class="title">ML Image Velocimetry</p>
+                <figure class="image is-4by3">
+                  <img class="modal-trigger" data-target="project-7-modal" src="img/project-7-cover.svg">
+                </figure>
+              </article>
+            </div>
+            <div class="tile is-parent">
+              <article class="tile is-child notification">
+                <p class="title">Image Vel Standardization</p>
+                <figure class="image is-4by3">
+                  <img class="modal-trigger" data-target="project-8-modal" src="img/project-8-cover.svg">
+                </figure>
+              </article>
+            </div>
+            <div class="tile is-parent">
+              <article class="tile is-child notification">
+                <p class="title">Training and Teaching</p>
+                <figure class="image is-4by3">
+                  <img class="modal-trigger" data-target="project-9-modal" src="img/project-9-cover.png">
                 </figure>
               </article>
             </div>
@@ -359,30 +395,47 @@
     <div class="modal-background"></div>
     <div class="modal-card">
       <header class="modal-card-head">
-        <p class="modal-card-title">Project title</p>
+        <p class="modal-card-title">Surface Velocity Tools (SVT)</p>
         <button class="delete" aria-label="close"></button>
       </header>
       <section class="modal-card-body">
 
         <div id="project-1-modal-carousel" class="carousel">
           <figure class="image is-4by3 carousel-cell">
-            <img src="img/carousel/1.png">
+            <img src="img/svtcarousel/1.jpg">
           </figure>
           <figure class="image is-4by3 carousel-cell">
-            <img src="img/carousel/2.png">
+            <img src="img/svtcarousel/2.jpg">
           </figure>
-          <figure class="image is-4by3 carousel-cell">
-            <img src="img/carousel/3.png">
-          </figure>
+          <!-- <figure class="image is-4by3 carousel-cell">
+            <img src="img/svtcarousel/3.png">
+          </figure> -->
         </div>
 
         <div class="content">
-
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-            dolore
-            magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-            commodo
-            consequat.</p>
+          <br>
+          <p>SurfVelTools is a Python application and user interface for computing
+            parameters associated with the
+            Probability Concept method (Fulton and others, <em>in review</em>) parameters using
+            velocity profile data
+            collected in the stationing where the maximum in-channel velocity occurs. 
+            SurfVelTools will also compute
+            streamflow (discharge) for a given Probability Concept result given a known
+            cross-sectional area, phi, and
+            surface velocity—all variables measured in the field at a typical surface
+            velocimetry gage. SurfVelTools
+            enables rapid determination of these parameters and streamflow with
+            uncertainties, including profile fit evaluation. Results can be archived and
+            exported for recordkeeping purposes.
+          </p>
+          <br>
+          <p>
+            <strong>Citation: </strong>Engel, F. L., 2023, Surface Velocity Tools (SurfVelTools), U.S. Geological
+              Survey software release,
+              <a href="https://doi.org/10.5066/P9I5JABK">https://doi.org/10.5066/P9I5JABK</a>.
+          </p>
+            
+            
 
           <div class="tags">
             <span class="tag">angular</span>
@@ -404,30 +457,37 @@
     <div class="modal-background"></div>
     <div class="modal-card">
       <header class="modal-card-head">
-        <p class="modal-card-title">Project title</p>
+        <p class="modal-card-title">Image Velocimetry Tools (IVy Tools)</p>
         <button class="delete" aria-label="close"></button>
       </header>
       <section class="modal-card-body">
 
         <div id="project-2-modal-carousel" class="carousel">
           <figure class="image is-4by3 carousel-cell">
-            <img src="img/carousel/1.png">
+            <img src="img/ivycarousel/1.png">
           </figure>
           <figure class="image is-4by3 carousel-cell">
-            <img src="img/carousel/2.png">
+            <img src="img/ivycarousel/2.png">
           </figure>
           <figure class="image is-4by3 carousel-cell">
-            <img src="img/carousel/3.png">
+            <img src="img/ivycarousel/3.png">
           </figure>
         </div>
 
         <div class="content">
-
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-            dolore
-            magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-            commodo
-            consequat.</p>
+          <br>
+          <p>The Image Velocimetry Tools (IVy Tools), or IVy, is a Python
+            application that provides workflow support for processing video and
+            imagery into water velocity and streamflow measurements. The program
+            provides tools that produce consistent imagery input. The application
+            also supports processing imagery sequences using Space-Time Image
+            Velocimetry (STIV) algorithms.
+            <br>
+          <p>
+            <strong>Citation: </strong>Engel, F. L., and Knight, T. (2024). Image Velocimetry Tools
+            (IVy Tools): U.S. Geological Software Release, 
+              <a href="https://doi.org/10.5066/P1KMVCNY">https://doi.org/10.5066/P1KMVCNY</a>.
+          </p>
 
           <div class="tags">
             <span class="tag">angular</span>
@@ -449,28 +509,50 @@
     <div class="modal-background"></div>
     <div class="modal-card">
       <header class="modal-card-head">
-        <p class="modal-card-title">Project title</p>
+        <p class="modal-card-title">Camera Data Collection Platform (CameraDCP)</p>
         <button class="delete" aria-label="close"></button>
       </header>
       <section class="modal-card-body">
         <div id="project-3-modal-carousel" class="carousel">
           <figure class="image is-4by3 carousel-cell">
-            <img src="img/carousel/1.png">
+            <img src="img/cdcpcarousel/1.png">
           </figure>
           <figure class="image is-4by3 carousel-cell">
-            <img src="img/carousel/2.png">
+            <img src="img/cdcpcarousel/2.png">
           </figure>
-          <figure class="image is-4by3 carousel-cell">
-            <img src="img/carousel/3.png">
-          </figure>
+          <!-- <figure class="image is-4by3 carousel-cell">
+            <img src="img/cdcpcarousel/3.png">
+          </figure> -->
         </div>
 
         <div class="content">
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-            dolore
-            magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-            commodo
-            consequat.</p>
+          <br>
+          <p>CameraDCP is a sophisticated application designed to enable users to 
+            utilize Raspberry Pi single-board computers (SBCs) for the collection of 
+            imagery and video from various network cameras or Raspberry Pi camera 
+            modules. Designed to supplement a traditional Data Collection Platform (DCP)
+            typically found at U.S. Geological Survey (USGS) gages, CameraDCP 
+            specializes in using cameras as observation or measurement sensors. This 
+            application supports scheduling measurements based on predefined times, 
+            external triggers, or internal level sensing, if available. Additionally, it 
+            can telemeter collected data to multiple destinations, including the National 
+            Imagery Management System (NIMS).</p>
+            
+            <p>Built with flexibility and reliability in mind, CameraDCP offers a robust 
+            solution for automated imagery data collection in diverse environments. Its 
+            integration capabilities and comprehensive scheduling options make it a 
+            valuable tool for both field and laboratory applications, enhancing the 
+            efficiency of data collection and management processes. The ongoing 
+            development and use by the USGS underscore its 
+            utility and potential for broad application in scientific and monitoring 
+            projects.</p>
+            <br>
+            <p>
+              <strong>Citation: </strong>Lee, A.M.,  <em>Engel, F.L.</em>, Andrews, S.J, Nicotra, M.J., and Gyves, M.C., 2024, 
+              Camera Data Collection Platform (CameraDCP), U.S. Geological
+              Survey software release, 
+                <a href="https://doi.org/10.5066/P13SMLIZ">https://doi.org/10.5066/P13SMLIZ</a>.
+            </p>
           <div class="tags">
             <span class="tag">angular</span>
             <span class="tag">mongo</span>
@@ -600,6 +682,141 @@
             <span class="tag">typscript</span>
             <span class="tag">node</span>
           </div>
+        </div>
+
+      </section>
+      <footer class="modal-card-foot">
+        <button class="button is-success">Close</button>
+      </footer>
+    </div>
+  </div>
+
+  <div id="project-7-modal" class="modal">
+    <div class="modal-background"></div>
+    <div class="modal-card">
+      <header class="modal-card-head">
+        <p class="modal-card-title">Project 7 Title</p>
+        <button class="delete" aria-label="close"></button>
+      </header>
+      <section class="modal-card-body">
+
+        <div id="project-7-modal-carousel" class="carousel">
+          <figure class="image is-4by3 carousel-cell">
+            <img src="img/carousel/1.png">
+          </figure>
+          <figure class="image is-4by3 carousel-cell">
+            <img src="img/carousel/2.png">
+          </figure>
+          <figure class="image is-4by3 carousel-cell">
+            <img src="img/carousel/3.png">
+          </figure>
+        </div>
+
+        <div class="content">
+
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore
+            magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+            commodo
+            consequat.</p>
+
+          <div class="tags">
+            <span class="tag">angular</span>
+            <span class="tag">mongo</span>
+            <span class="tag">typscript</span>
+            <span class="tag">node</span>
+          </div>
+
+        </div>
+
+      </section>
+      <footer class="modal-card-foot">
+        <button class="button is-success">Close</button>
+      </footer>
+    </div>
+  </div>
+
+  <div id="project-8-modal" class="modal">
+    <div class="modal-background"></div>
+    <div class="modal-card">
+      <header class="modal-card-head">
+        <p class="modal-card-title">Project 8 Title</p>
+        <button class="delete" aria-label="close"></button>
+      </header>
+      <section class="modal-card-body">
+
+        <div id="project-8-modal-carousel" class="carousel">
+          <figure class="image is-4by3 carousel-cell">
+            <img src="img/carousel/1.png">
+          </figure>
+          <figure class="image is-4by3 carousel-cell">
+            <img src="img/carousel/2.png">
+          </figure>
+          <figure class="image is-4by3 carousel-cell">
+            <img src="img/carousel/3.png">
+          </figure>
+        </div>
+
+        <div class="content">
+
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore
+            magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+            commodo
+            consequat.</p>
+
+          <div class="tags">
+            <span class="tag">angular</span>
+            <span class="tag">mongo</span>
+            <span class="tag">typscript</span>
+            <span class="tag">node</span>
+          </div>
+
+        </div>
+
+      </section>
+      <footer class="modal-card-foot">
+        <button class="button is-success">Close</button>
+      </footer>
+    </div>
+  </div>
+
+  <div id="project-9-modal" class="modal">
+    <div class="modal-background"></div>
+    <div class="modal-card">
+      <header class="modal-card-head">
+        <p class="modal-card-title">Project 9 Title</p>
+        <button class="delete" aria-label="close"></button>
+      </header>
+      <section class="modal-card-body">
+
+        <div id="project-9-modal-carousel" class="carousel">
+          <figure class="image is-4by3 carousel-cell">
+            <img src="img/carousel/1.png">
+          </figure>
+          <figure class="image is-4by3 carousel-cell">
+            <img src="img/carousel/2.png">
+          </figure>
+          <figure class="image is-4by3 carousel-cell">
+            <img src="img/carousel/3.png">
+          </figure>
+        </div>
+
+        <div class="content">
+
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore
+            magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+            commodo
+            consequat.</p>
+
+          <div class="tags">
+            <span class="tag">angular</span>
+            <span class="tag">mongo</span>
+            <span class="tag">typscript</span>
+            <span class="tag">node</span>
+          </div>
+
         </div>
 
       </section>
