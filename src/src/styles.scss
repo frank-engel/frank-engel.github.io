@@ -40,6 +40,9 @@ a.icon > strong { margin-left: .25rem; }
 .square-image{
     aspect-ratio: 1 / 1;
 }
+#ivy-version {
+    display: none,
+}
 
 /* Import everything - alternatively import just what you need: https://bulma.io/documentation/overview/modular/ */
 @import "~bulma/bulma";
