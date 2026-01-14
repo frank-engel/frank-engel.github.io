@@ -934,9 +934,26 @@
     <div id="ivy-version">
       v1.2.0.0
     </div>
-    <div id="ivy-announcement" data-id="test-002">
-      My second announcement 
+    <!-- 
+    Set an announcement for IVyTools v1.2+ users 
+    ============================================
+    div with id="ivy-announcement" required. 
+    If you set data-id="some-id" it will be checked and saved by the user,
+    who can dismiss the message permanently.
+
+    Setting no data-id means it's a "Critical" message, and 
+    will be shown each time user starts IVyTools
+
+    HTML can be passed and IVyTools will correctly format the message. 
+    
+    Working Example:
+    
+    <div id="ivy-announcement" data-id="example-msg">
+      <b>This is an example message</b> 
     </div>
+
+    -->
+    
   </footer>
 
   <script src="js/bundle.js"></script>
