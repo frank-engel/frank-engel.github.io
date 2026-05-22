@@ -1,0 +1,19 @@
+{% extends "base.html" %}
+
+{% block scripts %}
+  {{ super() }}
+  <div id="ivy-version">v1.4.0.0</div>
+  <div id="ivy-announcement" data-id="20260303-IVyToolsv1.4">
+    <h1 style="font-size:1.4em; margin-bottom:0.5em;">Welcome to IVyTools v1.4 🎉</h1>
+    <p style="margin-bottom:1em;">This release brings key enhancements for orthorectification and STI review to give you more control and clarity. Here's what's new:</p>
+    <ul style="margin-bottom:1em; padding-left:1.2em;">
+      <li><strong>Enhanced STI Review</strong>: Manual correction lines now appear as dotted red lines alongside averaged and auto-detected lines, plus a new "Clear Manual Corrections" button for quick resets.</li>
+      <li><strong>Pixel GSD Override</strong>: Manually set a known Ground Sample Distance when computed values aren't reliable—ideal for precision workflows.</li>
+      <li><strong>Full-Motion Video GCP creation</strong>: TS (Transport Stream) Conversion Tool now correctly computes the ground control information for supported UAS nadir videos based on video metadata and a user-specified Height Above Water (HAW).</li>
+    </ul>
+    <p style="background:#f6f8fa; border:1px solid #ddd; padding:0.75em; border-radius:4px; margin-bottom:1em;">
+      <strong>Tip:</strong> Projects from v1.x should load fine, but reprocessing is recommended to take advantage of these improvements.
+    </p>
+    <p>Want the full details? Check out the <a href="https://code.usgs.gov/hydrologic-remote-sensing-branch/ivy/-/releases/1.4.0.0">v1.4.0.0 Release Notes</a>.</p>
+  </div>
+{% endblock %}

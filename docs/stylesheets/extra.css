@@ -1,0 +1,19 @@
+/* Hide IVy app communication divs */
+#ivy-version,
+#ivy-announcement {
+  display: none !important;
+}
+
+
+/* Hide the "Made with Zensical" footer branding */
+.md-footer-meta .md-copyright {
+  display: none;
+}
+
+
+/* Force white background on images with transparent backgrounds */
+img.light-bg {
+  background: white;
+  border-radius: 4px;
+  padding: 4px;
+}

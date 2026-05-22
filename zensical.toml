@@ -1,0 +1,53 @@
+[project]
+site_name = "Frank L. Engel, Ph.D."
+site_url = "https://frank-engel.github.io"
+site_description = "Geographer and hydrologic remote sensing scientist at the U.S. Geological Survey. Developer of image velocimetry tools, national imagery infrastructure, and non-contact streamflow measurement methods."
+site_author = "Frank L. Engel"
+copyright = "&copy; 2026 Frank L. Engel"
+
+extra_css = ["stylesheets/extra.css"]
+
+nav = [
+  {"Home" = "index.md"},
+  {"Projects" = [
+    "projects/index.md",
+    "projects/ivy-tools.md",
+    "projects/nims.md",
+    "projects/cameradcp.md",
+    "projects/surfveltools.md",
+    "projects/prob-concept.md",
+    "projects/echo.md",
+    "projects/river-ice.md",
+    "projects/ml-image-vel.md",
+    "projects/training.md",
+  ]},
+  {"Publications" = "publications.md"},
+  {"CV" = "cv.md"},
+  {"About" = "about.md"},
+]
+
+[project.theme]
+custom_dir = "overrides"
+features = [
+  "navigation.tabs",
+  "navigation.tabs.sticky",
+  "navigation.instant",
+  "navigation.instant.prefetch",
+  "navigation.top",
+  "navigation.indexes",
+  "toc.follow",
+]
+palette = [
+  {scheme = "default", primary = "teal", accent = "amber", toggle = {icon = "material/brightness-7", name = "Switch to dark mode"}},
+  {scheme = "slate", primary = "teal", accent = "amber", toggle = {icon = "material/brightness-4", name = "Switch to light mode"}},
+]
+font = {text = "Inter", code = "JetBrains Mono"}
+icon = {logo = "material/water"}
+favicon = "img/favicon.png"
+
+[project.extra]
+social = [
+  {icon = "fontawesome/brands/github", link = "https://github.com/frank-engel"},
+  {icon = "fontawesome/brands/linkedin", link = "https://www.linkedin.com/in/frank-engel-geographer/"},
+  {icon = "material/email", link = "mailto:fengel@usgs.gov"},
+]

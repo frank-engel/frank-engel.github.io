@@ -1,0 +1,31 @@
+# Zensical build output
+site/
+.cache/
+
+# Python virtual environment
+.venv/
+
+# Python
+__pycache__/
+*.py[cod]
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/
+
+# Old webpack build (to be removed)
+src/node_modules/
+src/dist/css/
+src/dist/js/
+
+# LaTeX auxiliary files
+*.aux
+*.log
+*.out
+*.synctex.gz
+*.fls
+*.fdb_latexmk
