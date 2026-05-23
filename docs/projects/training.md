@@ -38,10 +38,9 @@ My methods and software have been incorporated into graduate-level curriculum at
 
 ## Student Advising
 
-I advise three graduate students whose thesis research directly uses methods I developed:
+I advise graduate students whose thesis research directly uses methods I developed:
 
 - A. Tenorio (Penn State) — Auto-STIV deep learning framework
-- M. Ayyad (Stevens Institute) — RIce-Net and AIPIV
 - A. Cadogan (University of Arizona) — UAS-based discharge measurement
 
 ## Outreach

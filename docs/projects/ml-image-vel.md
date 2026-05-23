@@ -8,7 +8,7 @@ Collaborative research applying deep learning to advance the state-of-the-art of
 
 ## Auto-STIV
 
-**Auto-STIV** is a deep learning framework for fully autonomous two-dimensional streamflow velocity vector field estimation. Developed in collaboration with Pennsylvania State University (Dr. Xiaofeng Liu).
+**Auto-STIV** is a deep learning framework for fully autonomous two-dimensional streamflow velocity vector field estimation. Developed in collaboration with Pennsylvania State University (Dr. Xiaofeng Liu, Dr. Roberto Fernández, and Dr. Xiaofeng Liu).
 
 ### Key Innovation
 
@@ -22,7 +22,7 @@ Tenorio, A., Umarova, A., Fernández, R., **Engel, F.L.**, and Liu, X., *in revi
 
 ## AIPIV
 
-**AIPIV** (Entropy-guided deep feature particle image velocimetry) applies entropy-guided deep learning for robust river surface velocity estimation. Developed in collaboration with the Stevens Institute of Technology (Dr. Marouane Temimi).
+**AIPIV** (Entropy-guided deep feature particle image velocimetry) applies entropy-guided deep learning for robust river surface velocity estimation. Developed in collaboration with the Stevens Institute of Technology (Dr. Mahmoud Ayyad).
 
 ### Key Innovation
 
@@ -45,8 +45,8 @@ I serve as co-PI and domain expert on both collaborations, providing:
 
 ## Collaborators
 
-- **Pennsylvania State University** — Dr. Xiaofeng Liu, A. Tenorio (Ph.D. student)
-- **Stevens Institute of Technology** — Dr. Marouane Temimi, M. Ayyad (Ph.D. student)
+- **Pennsylvania State University** — Dr. Xiaofeng Liu, Dr. Roberto Fernández, Alejandro. Tenorio (Ph.D. student)
+- **Stevens Institute of Technology** — Dr. Mahmoud Ayyad, Dr. Marouane Temimi 
 - **University of Arizona** — Dr. Jennifer Duan
 
 ## Related
