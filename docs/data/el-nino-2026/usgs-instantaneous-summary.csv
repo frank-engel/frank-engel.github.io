@@ -1,0 +1,31 @@
+site_no,site_name,window,enso_label,parameter,max_value,max_time_utc,n_readings
+08167500,"Guadalupe Rv nr Spring Branch, TX",DJF1998,1997-98 El Nino,discharge_cfs,2490.0,1998-02-01T03:30:00+00:00,12262
+08167500,"Guadalupe Rv nr Spring Branch, TX",DJF1998,1997-98 El Nino,gage_height_ft,,,0
+08167500,"Guadalupe Rv nr Spring Branch, TX",DJF2016,2015-16 El Nino,discharge_cfs,43100.0,2015-10-30T15:00:00+00:00,17376
+08167500,"Guadalupe Rv nr Spring Branch, TX",DJF2016,2015-16 El Nino,gage_height_ft,30.06,2015-10-30T15:00:00+00:00,17376
+08167500,"Guadalupe Rv nr Spring Branch, TX",DJF2024,2023-24 El Nino,discharge_cfs,109.0,2024-02-13T09:15:00+00:00,17327
+08167500,"Guadalupe Rv nr Spring Branch, TX",DJF2024,2023-24 El Nino,gage_height_ft,2.44,2024-02-13T09:15:00+00:00,17327
+08158000,"Colorado Rv at Austin, TX",DJF1998,1997-98 El Nino,discharge_cfs,10100.0,1997-12-21T04:30:00+00:00,8639
+08158000,"Colorado Rv at Austin, TX",DJF1998,1997-98 El Nino,gage_height_ft,,,0
+08158000,"Colorado Rv at Austin, TX",DJF2016,2015-16 El Nino,discharge_cfs,33200.0,2015-10-30T18:10:00+00:00,25000
+08158000,"Colorado Rv at Austin, TX",DJF2016,2015-16 El Nino,gage_height_ft,33.6,2015-10-30T18:10:00+00:00,25000
+08158000,"Colorado Rv at Austin, TX",DJF2024,2023-24 El Nino,discharge_cfs,3950.0,2023-10-26T20:25:00+00:00,25000
+08158000,"Colorado Rv at Austin, TX",DJF2024,2023-24 El Nino,gage_height_ft,18.01,2023-10-26T20:25:00+00:00,25000
+08194500,"Nueces Rv nr Tilden, TX",DJF1998,1997-98 El Nino,discharge_cfs,188.0,1997-10-20T08:00:00+00:00,4320
+08194500,"Nueces Rv nr Tilden, TX",DJF1998,1997-98 El Nino,gage_height_ft,,,0
+08194500,"Nueces Rv nr Tilden, TX",DJF2016,2015-16 El Nino,discharge_cfs,1020.0,2015-10-27T19:45:00+00:00,17372
+08194500,"Nueces Rv nr Tilden, TX",DJF2016,2015-16 El Nino,gage_height_ft,12.45,2015-10-28T04:15:00+00:00,17372
+08194500,"Nueces Rv nr Tilden, TX",DJF2024,2023-24 El Nino,discharge_cfs,602.0,2023-09-03T21:45:00+00:00,17180
+08194500,"Nueces Rv nr Tilden, TX",DJF2024,2023-24 El Nino,gage_height_ft,10.17,2023-09-03T21:45:00+00:00,17180
+08178880,"Medina Rv at Bandera, TX",DJF1998,1997-98 El Nino,discharge_cfs,1140.0,1998-01-31T22:30:00+00:00,17272
+08178880,"Medina Rv at Bandera, TX",DJF1998,1997-98 El Nino,gage_height_ft,,,0
+08178880,"Medina Rv at Bandera, TX",DJF2016,2015-16 El Nino,discharge_cfs,523.0,2015-11-29T00:45:00+00:00,16988
+08178880,"Medina Rv at Bandera, TX",DJF2016,2015-16 El Nino,gage_height_ft,6.02,2015-11-29T00:45:00+00:00,16988
+08178880,"Medina Rv at Bandera, TX",DJF2024,2023-24 El Nino,discharge_cfs,221.0,2024-02-10T16:45:00+00:00,17374
+08178880,"Medina Rv at Bandera, TX",DJF2024,2023-24 El Nino,gage_height_ft,5.11,2024-02-10T16:45:00+00:00,17374
+08195000,"Frio Rv at Concan, TX",DJF1998,1997-98 El Nino,discharge_cfs,6800.0,1998-01-31T16:00:00+00:00,17277
+08195000,"Frio Rv at Concan, TX",DJF1998,1997-98 El Nino,gage_height_ft,,,0
+08195000,"Frio Rv at Concan, TX",DJF2016,2015-16 El Nino,discharge_cfs,320.0,2015-11-29T04:00:00+00:00,17071
+08195000,"Frio Rv at Concan, TX",DJF2016,2015-16 El Nino,gage_height_ft,4.35,2015-11-29T04:00:00+00:00,17071
+08195000,"Frio Rv at Concan, TX",DJF2024,2023-24 El Nino,discharge_cfs,41.2,2023-10-06T09:05:00+00:00,25000
+08195000,"Frio Rv at Concan, TX",DJF2024,2023-24 El Nino,gage_height_ft,3.47,2023-11-23T22:15:00+00:00,25000

@@ -1,0 +1,51 @@
+site_no,site_name,window,enso_label,max_daily_mean_cfs,max_date,n_days_with_data
+08167500,"Guadalupe Rv nr Spring Branch, TX",DJF1900,,0,NO DATA,0
+08167500,"Guadalupe Rv nr Spring Branch, TX",DJF1919,,0,NO DATA,0
+08167500,"Guadalupe Rv nr Spring Branch, TX",DJF1926,,3900.0,1925-10-16,181
+08167500,"Guadalupe Rv nr Spring Branch, TX",DJF1931,,15000.0,1930-10-07,181
+08167500,"Guadalupe Rv nr Spring Branch, TX",DJF1941,,7340.0,1941-02-01,181
+08167500,"Guadalupe Rv nr Spring Branch, TX",DJF1973,,904.0,1972-10-22,181
+08167500,"Guadalupe Rv nr Spring Branch, TX",DJF1983,,790.0,1982-09-16,181
+08167500,"Guadalupe Rv nr Spring Branch, TX",DJF1998,,1110.0,1998-02-01,181
+08167500,"Guadalupe Rv nr Spring Branch, TX",DJF2016,,9690.0,2015-10-30,182
+08167500,"Guadalupe Rv nr Spring Branch, TX",DJF2024,,96.0,2024-02-13,182
+08158000,"Colorado Rv at Austin, TX",DJF1900,,14000.0,1899-12-11,181
+08158000,"Colorado Rv at Austin, TX",DJF1919,,64700.0,1918-11-11,181
+08158000,"Colorado Rv at Austin, TX",DJF1926,,29800.0,1925-10-17,181
+08158000,"Colorado Rv at Austin, TX",DJF1931,,79500.0,1930-10-07,181
+08158000,"Colorado Rv at Austin, TX",DJF1941,,20700.0,1940-12-16,181
+08158000,"Colorado Rv at Austin, TX",DJF1973,,3770.0,1972-10-22,181
+08158000,"Colorado Rv at Austin, TX",DJF1983,,2850.0,1982-09-01,181
+08158000,"Colorado Rv at Austin, TX",DJF1998,,4190.0,1998-02-22,181
+08158000,"Colorado Rv at Austin, TX",DJF2016,,12300.0,2015-10-30,182
+08158000,"Colorado Rv at Austin, TX",DJF2024,,2530.0,2024-01-22,182
+08194500,"Nueces Rv nr Tilden, TX",DJF1900,,0,NO DATA,0
+08194500,"Nueces Rv nr Tilden, TX",DJF1919,,0,NO DATA,0
+08194500,"Nueces Rv nr Tilden, TX",DJF1926,,0,NO DATA,0
+08194500,"Nueces Rv nr Tilden, TX",DJF1931,,0,NO DATA,0
+08194500,"Nueces Rv nr Tilden, TX",DJF1941,,0,NO DATA,0
+08194500,"Nueces Rv nr Tilden, TX",DJF1973,,806.0,1972-09-30,181
+08194500,"Nueces Rv nr Tilden, TX",DJF1983,,1340.0,1982-10-16,181
+08194500,"Nueces Rv nr Tilden, TX",DJF1998,,176.0,1997-10-20,181
+08194500,"Nueces Rv nr Tilden, TX",DJF2016,,998.0,2015-10-27,182
+08194500,"Nueces Rv nr Tilden, TX",DJF2024,,590.0,2023-09-03,182
+08178880,"Medina Rv at Bandera, TX",DJF1900,,0,NO DATA,0
+08178880,"Medina Rv at Bandera, TX",DJF1919,,0,NO DATA,0
+08178880,"Medina Rv at Bandera, TX",DJF1926,,0,NO DATA,0
+08178880,"Medina Rv at Bandera, TX",DJF1931,,0,NO DATA,0
+08178880,"Medina Rv at Bandera, TX",DJF1941,,0,NO DATA,0
+08178880,"Medina Rv at Bandera, TX",DJF1973,,0,NO DATA,0
+08178880,"Medina Rv at Bandera, TX",DJF1983,,100.0,1983-02-17,151
+08178880,"Medina Rv at Bandera, TX",DJF1998,,573.0,1998-01-31,181
+08178880,"Medina Rv at Bandera, TX",DJF2016,,389.0,2015-11-28,182
+08178880,"Medina Rv at Bandera, TX",DJF2024,,42.7,2024-02-10,182
+08195000,"Frio Rv at Concan, TX",DJF1900,,0,NO DATA,0
+08195000,"Frio Rv at Concan, TX",DJF1919,,0,NO DATA,0
+08195000,"Frio Rv at Concan, TX",DJF1926,,496.0,1925-10-16,181
+08195000,"Frio Rv at Concan, TX",DJF1931,,10500.0,1930-10-06,151
+08195000,"Frio Rv at Concan, TX",DJF1941,,140.0,1940-12-11,181
+08195000,"Frio Rv at Concan, TX",DJF1973,,326.0,1972-09-22,181
+08195000,"Frio Rv at Concan, TX",DJF1983,,124.0,1982-09-14,181
+08195000,"Frio Rv at Concan, TX",DJF1998,,1110.0,1998-01-31,181
+08195000,"Frio Rv at Concan, TX",DJF2016,,274.0,2015-11-29,182
+08195000,"Frio Rv at Concan, TX",DJF2024,,36.3,2023-10-06,182

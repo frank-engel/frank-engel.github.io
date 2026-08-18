@@ -1,0 +1,31 @@
+site_no,site_name,rank,date,gage_height_ft,qualifier
+08167500,"Guadalupe Rv nr Spring Branch, TX",1,1869-01-01,53.0,"['ESTIMATED', 'MONTHUNKNOWN']"
+08167500,"Guadalupe Rv nr Spring Branch, TX",2,1900-07-01,49.0,"['DAYUNKNOWN', 'ESTIMATED']"
+08167500,"Guadalupe Rv nr Spring Branch, TX",3,1978-08-03,45.25,
+08167500,"Guadalupe Rv nr Spring Branch, TX",4,1997-06-22,45.12,['DIFFDATUM']
+08167500,"Guadalupe Rv nr Spring Branch, TX",5,1932-07-03,42.1,
+08158000,"Colorado Rv at Austin, TX",1,1869-07-07,46.0,
+08158000,"Colorado Rv at Austin, TX",2,1935-06-15,41.2,['DIFFDATUM']
+08158000,"Colorado Rv at Austin, TX",3,2015-05-26,34.09,
+08158000,"Colorado Rv at Austin, TX",4,2015-10-30,33.6,
+08158000,"Colorado Rv at Austin, TX",5,1900-04-07,33.5,['DIFFDATUM']
+08194500,"Nueces Rv nr Tilden, TX",1,1967-09-24,26.57,
+08194500,"Nueces Rv nr Tilden, TX",2,1946-10-11,26.46,
+08194500,"Nueces Rv nr Tilden, TX",3,1958-02-24,24.8,
+08194500,"Nueces Rv nr Tilden, TX",4,1971-10-19,24.54,
+08194500,"Nueces Rv nr Tilden, TX",5,1935-06-01,23.7,"['DAYUNKNOWN', 'ESTIMATED']"
+08178880,"Medina Rv at Bandera, TX",1,2002-07-05,38.91,
+08178880,"Medina Rv at Bandera, TX",2,2015-05-24,24.94,
+08178880,"Medina Rv at Bandera, TX",3,1987-06-03,24.9,
+08178880,"Medina Rv at Bandera, TX",4,1997-06-22,24.49,
+08178880,"Medina Rv at Bandera, TX",5,2000-10-23,22.23,
+08195000,"Frio Rv at Concan, TX",1,1932-07-01,34.44,
+08195000,"Frio Rv at Concan, TX",2,2002-07-05,31.23,['ESTIMATED']
+08195000,"Frio Rv at Concan, TX",3,1936-09-16,30.65,
+08195000,"Frio Rv at Concan, TX",4,1935-06-14,29.4,
+08195000,"Frio Rv at Concan, TX",5,1923-09-18,28.8,
+08167200,"Guadalupe Rv at FM474 nr Bergheim, TX",1,2025-07-05,50.33,
+08167200,"Guadalupe Rv at FM474 nr Bergheim, TX",2,2018-10-17,39.02,
+08167200,"Guadalupe Rv at FM474 nr Bergheim, TX",3,2018-09-22,15.59,
+08167200,"Guadalupe Rv at FM474 nr Bergheim, TX",4,2021-05-02,11.0,
+08167200,"Guadalupe Rv at FM474 nr Bergheim, TX",5,2020-05-29,9.28,['GHNOTASSCPKQ']
